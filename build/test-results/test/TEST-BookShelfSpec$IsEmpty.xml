@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is empty" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-14T09:59:24" hostname="Grants-MacBook-Pro.local" time="0.003">
+<testsuite name="is empty" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-15T21:02:26" hostname="Grants-MacBook-Pro.local" time="0.003">
   <properties/>
   <testcase name="when no book is added to it" classname="BookShelfSpec$IsEmpty" time="0.001"/>
   <testcase name="when add is called without books" classname="BookShelfSpec$IsEmpty" time="0.001"/>
