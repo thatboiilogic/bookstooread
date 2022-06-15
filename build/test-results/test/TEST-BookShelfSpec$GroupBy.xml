@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="books are grouped by" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-15T21:02:25" hostname="Grants-MacBook-Pro.local" time="0.072">
+<testsuite name="books are grouped by" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-15T21:09:21" hostname="Grants-MacBook-Pro.local" time="0.055">
   <properties/>
-  <testcase name="publication year" classname="BookShelfSpec$GroupBy" time="0.069"/>
+  <testcase name="publication year" classname="BookShelfSpec$GroupBy" time="0.052"/>
   <testcase name="user provided criteria(group by author name)" classname="BookShelfSpec$GroupBy" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

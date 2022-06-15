@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="A bookshelf" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-06-15T21:02:25" hostname="Grants-MacBook-Pro.local" time="0.053">
+<testsuite name="A bookshelf" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-06-15T21:09:21" hostname="Grants-MacBook-Pro.local" time="0.06">
   <properties/>
   <testcase name="throwsExceptionWhenBooksAreAddedAfterCapacityIsReached()" classname="BookShelfSpec" time="0.021"/>
   <testcase name="i_am_a_repeated_test__1/10" classname="BookShelfSpec" time="0.002"/>
-  <testcase name="i_am_a_repeated_test__2/10" classname="BookShelfSpec" time="0.0"/>
+  <testcase name="i_am_a_repeated_test__2/10" classname="BookShelfSpec" time="0.001"/>
   <testcase name="i_am_a_repeated_test__3/10" classname="BookShelfSpec" time="0.001"/>
   <testcase name="i_am_a_repeated_test__4/10" classname="BookShelfSpec" time="0.001"/>
-  <testcase name="i_am_a_repeated_test__5/10" classname="BookShelfSpec" time="0.0"/>
+  <testcase name="i_am_a_repeated_test__5/10" classname="BookShelfSpec" time="0.001"/>
   <testcase name="i_am_a_repeated_test__6/10" classname="BookShelfSpec" time="0.001"/>
-  <testcase name="i_am_a_repeated_test__7/10" classname="BookShelfSpec" time="0.0"/>
-  <testcase name="i_am_a_repeated_test__8/10" classname="BookShelfSpec" time="0.0"/>
+  <testcase name="i_am_a_repeated_test__7/10" classname="BookShelfSpec" time="0.001"/>
+  <testcase name="i_am_a_repeated_test__8/10" classname="BookShelfSpec" time="0.001"/>
   <testcase name="i_am_a_repeated_test__9/10" classname="BookShelfSpec" time="0.001"/>
   <testcase name="i_am_a_repeated_test__10/10" classname="BookShelfSpec" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
