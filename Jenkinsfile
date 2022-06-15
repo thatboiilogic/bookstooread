@@ -2,19 +2,22 @@ pipeline {
     agent any
 
     stages {
-        stage ('Git Checkout') {
+        stage ('Build') {
             steps {
-                git credentialsId:'https://github.com/thatboiilogic/bookstooread'
-
+                //withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn clean compile'
                 }
+           // }
         }
 
-        stage ('Maven Build') {
+        stage ('Testing Stage') {
+
             steps {
-                    sh 'mvn clean package'
+                withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn test'
                 }
             }
-
+        }
 
 
         stage ('Deployment Stage') {
