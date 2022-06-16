@@ -9,14 +9,16 @@ pipeline {
                 }
             }
         }
-
-        stage ('Testing Stage') {
-            steps {
-                   sh 'make check || true'
-                   junit '**/target/*.xml'
+    stage('Test') {
+                steps {
+                    sh 'mvn test'
                 }
-
-        }
+                post {
+                    always {
+                        junit 'target/surefire-reports/*.xml'
+                    }
+                }
+            }
 
 
         stage ('Deployment Stage') {
