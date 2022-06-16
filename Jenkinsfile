@@ -11,12 +11,11 @@ pipeline {
         }
 
         stage ('Testing Stage') {
-
             steps {
-                //withMaven(maven : 'maven_3_5_0') {
-                    sh 'test'
+                   sh 'make check || true'
+                   junit '**/target/*.xml'
                 }
-           // }
+
         }
 
 
